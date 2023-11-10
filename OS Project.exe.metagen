@@ -1,0 +1,86 @@
+  OSProject.Buffer screen.resources - Embedded, ContainedInManifestFile, 
+  OSProject.create process.resources - Embedded, ContainedInManifestFile, 
+  OSProject.main window.resources - Embedded, ContainedInManifestFile, 
+  OSProject.time entry.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OS Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OSProject.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    get_final_checks(): PrivateScope, Public, HideBySig
+    get_rrtime(): PrivateScope, Public, HideBySig
+Class OSProject.createprocess: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean final_check : Public
+  Methods:
+    get_name(): PrivateScope, Public, HideBySig
+    get_BT(): PrivateScope, Public, HideBySig
+    get_Pr(): PrivateScope, Public, HideBySig
+    get_io(): PrivateScope, Public, HideBySig
+    get_final_checks(): PrivateScope, Public, HideBySig
+    get_ir1(): PrivateScope, Public, HideBySig
+    get_ir2(): PrivateScope, Public, HideBySig
+    get_ir3(): PrivateScope, Public, HideBySig
+    get_ir4(): PrivateScope, Public, HideBySig
+    get_ir5(): PrivateScope, Public, HideBySig
+    set_instances(String, String, String, String, String): PrivateScope, Public, HideBySig
+Class OSProject.Bufferscreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[System.String] values : Public
+    System.Collections.Generic.List`1[System.String] names : Public
+  Methods:
+    set_names(String): PrivateScope, Public, HideBySig
+    set_values(String): PrivateScope, Public, HideBySig
+Class OSProject.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 proc_counter : Public
+    Int32 rr_time : Public
+    Int32 choice : Public
+    System.Collections.Generic.List`1[OSProject.MyForm+process] proc : Public
+    System.Collections.Generic.List`1[OSProject.MyForm+process] ready : Public
+    System.Collections.Generic.List`1[OSProject.MyForm+process] job : Public
+    System.Collections.Generic.List`1[OSProject.MyForm+process] device : Public
+    System.Collections.Generic.List`1[System.Int32] insta_avail : Public
+    Int32 number_of_resources IsConst : Public, Static, HasDefault
+  Methods:
+    get_no(Int32): PrivateScope, Public, HideBySig
+    get_name(Int32): PrivateScope, Public, HideBySig
+    get_bt(Int32): PrivateScope, Public, HideBySig
+    get_pr(Int32): PrivateScope, Public, HideBySig
+    get_io(Int32): PrivateScope, Public, HideBySig
+    get_ir(Int32, Int32): PrivateScope, Public, HideBySig
+    collect_data(): PrivateScope, Public, HideBySig
+    sort_bt(): PrivateScope, Public, HideBySig
+    sort_pr(): PrivateScope, Public, HideBySig
+    checkresources(process): PrivateScope, Public, HideBySig
+    generate_graph(): PrivateScope, Public, HideBySig
+    print_bold(String): PrivateScope, Public, HideBySig
+    reinitialize_instances(): PrivateScope, Public, HideBySig
+    generate_queues(): PrivateScope, Public, HideBySig
+    regenerate_datagrid(): PrivateScope, Public, HideBySig
+    Priority(): PrivateScope, Public, HideBySig
+    Fcfs(): PrivateScope, Public, HideBySig
+    SJF(): PrivateScope, Public, HideBySig
+    RoundRobin(): PrivateScope, Public, HideBySig
