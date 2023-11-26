@@ -1,0 +1,25 @@
+﻿  Run Project.cpp
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,23): warning C4677: 'proc': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,32): warning C4677: 'ready': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,39): warning C4677: 'job': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,49): warning C4677: 'device': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(607,34): warning C4677: 'checkresources': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+  Source.cpp
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,23): warning C4677: 'proc': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,32): warning C4677: 'ready': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,39): warning C4677: 'job': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(58,49): warning C4677: 'device': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(607,34): warning C4677: 'checkresources': signature of non-private member contains assembly private type 'OSProject::MyForm::process'
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\main window.h(27,14): message : see declaration of 'OSProject::MyForm::process'
+  Generating Code...
+  Run Project.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OS Project.vcxproj -> C:\Users\786 COMPUTERS\source\repos\OS Project\x64\Debug\OS Project.exe

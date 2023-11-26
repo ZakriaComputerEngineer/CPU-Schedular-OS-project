@@ -1,0 +1,7 @@
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OS Project.vcxproj.AssemblyReference.cache
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OS Project.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OS Project.vcxproj.GenerateResource.cache
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OSProject.main window.resources
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OSProject.time entry.resources
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OSProject.create process.resources
+C:\Users\786 COMPUTERS\source\repos\OS Project\OS Project\x64\Debug\OSProject.Buffer screen.resources
